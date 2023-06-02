@@ -18,7 +18,7 @@ RSpec.describe Library do
 
         it 'is created with one argument, a name string' do
             
-            expect(@dpl.name).to eq("Denver Public Library")
+            expect(@dpl.library_name).to eq("Denver Public Library")
         end
 
         it 'holds an array of book objects' do

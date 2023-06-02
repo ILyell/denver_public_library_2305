@@ -1,6 +1,6 @@
 require 'rspec'
 require './lib/book'
-require_relative 'book_spec'
+
 
 RSpec.describe Book do
     before(:each) do
